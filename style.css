@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.section-1 {
+  width: 100%;
+  height: 300px;
+  background-color: grey;
+  z-index: 2;
+  position: fixed;
+}
+
+.section-2 {
+  width: 50%;
+  height: 1400px;
+  background-color: red;
+  position: relative;
+}
+
+.move-me {
+  width: 100px;
+  height: 100px;
+  top: 20px;
+  left: 50px;
+  background-color: yellow;
+  position: fixed;
+  z-index: 2;
+}
